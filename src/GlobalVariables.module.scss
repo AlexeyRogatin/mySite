@@ -1,0 +1,19 @@
+$desctopWidth: 1080px;
+
+:root {
+    --mainBackGroundColor: #222;
+    --sideBackGroundColor: #3C3C3C;
+    --mainColor: #1bf6f2;
+    --sideColor: #9387c6;
+    --mainContentColor: #FFF;
+    --sideContentColor: #565656;
+
+    --desctopPadding: 190px;
+    --mobilePadding: 20px;
+
+    --padding: var(--mobilePadding);
+
+    @media (min-width: $desctopWidth) {
+        --padding: var(--desctopPadding);
+    }
+}

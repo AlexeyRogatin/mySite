@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "**/*.css.d.ts": true,
+    "**/*.scss.d.ts": true,
+    "**/*.svg.d.ts": true
+  }
+}

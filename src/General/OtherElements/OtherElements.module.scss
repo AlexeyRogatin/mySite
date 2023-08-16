@@ -1,0 +1,27 @@
+.scrollableElement {
+    overflow-x: scroll;
+
+    position: relative;
+    left: calc(0px - var(--padding));
+    width: calc(100% + calc(var(--padding) * 2));
+
+    --availableWidth: calc(100%);
+}
+
+.scrollableElement>* {
+    padding: 0 var(--padding);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+
+    width: max-content;
+}
+
+.scrollableElement>*>* {
+    width: calc(var(--clientWidth) - var(--padding) * 2);
+}
+
+.scrollableElement::-webkit-scrollbar {
+    visibility: hidden;
+}

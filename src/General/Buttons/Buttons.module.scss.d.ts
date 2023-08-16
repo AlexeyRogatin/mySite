@@ -1,0 +1,15 @@
+export declare const button: string;
+export declare const buttonGroup: string;
+export declare const buttonList: string;
+export declare const defaultText: string;
+export declare const desctopButtonList: string;
+export declare const heading: string;
+export declare const heading1: string;
+export declare const heading2: string;
+export declare const highlight: string;
+export declare const highlightHeading: string;
+export declare const highlightImage: string;
+export declare const highlightText: string;
+export declare const imageWrapper: string;
+export declare const linkFavicon: string;
+export declare const text: string;

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="56"
+   height="56"
+   viewBox="0 0 56 56"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="Logo.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="9.9373757"
+     inkscape:cx="31.849455"
+     inkscape:cy="30.239372"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <g
+     id="Mobile"
+     clip-path="url(#clip0_0_1)">
+    <path
+       id="rect2"
+       transform="translate(-17 -80)"
+       d="M 0,0 V 4572 H 375 V 0 Z m 142.43164,121.81836 c 1.14262,0.0351 2.11864,1.33222 1.54883,3.5 -3.44208,13.09503 -6.36958,26.31911 -9.25781,39.54492 -0.70185,3.27132 -1.40362,6.54119 -2.10547,9.8125 -0.83589,3.89609 -4.77145,3.05233 -3.93555,-0.84375 l 2.10938,-9.82812 c 2.90662,-13.30866 5.85034,-26.61501 9.31836,-39.79102 0.44373,-1.68591 1.43355,-2.42186 2.32226,-2.39453 z" />
+    <g
+       id="Section 1">
+      <path
+         id="Rectangle 1"
+         d="M -17,-80 V 720 H 358 V -80 Z M 125.43164,41.818359 c 1.14262,0.03514 2.11864,1.33222 1.54883,3.5 -3.44208,13.095031 -6.36958,26.319108 -9.25781,39.544922 -0.70185,3.271315 -1.40362,6.541187 -2.10547,9.8125 -0.83589,3.896085 -4.77145,3.052332 -3.93555,-0.84375 l 2.10938,-9.828125 c 2.90662,-13.308653 5.85034,-26.615008 9.31836,-39.791015 0.44373,-1.685907 1.43355,-2.421865 2.32226,-2.394532 z" />
+      <path
+         id="Hope"
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="M55.9979 27.9979C55.9979 27.9979 56.33 15.1319 48.5989 7.40097C40.8681 -0.329853 28.0021 0.00207581 28.0021 0.00207581C28.0021 0.00207581 28.0003 0.0683428 28 0.194187C28 0.141039 27.9995 0.0985203 27.9992 0.067124C27.9987 0.0241907 27.9979 0.00207581 27.9979 0.00207581C27.9979 0.00207581 15.1319 -0.329853 7.40097 7.40097C-0.329853 15.1319 0.00207581 27.9979 0.00207581 27.9979C0.00207581 27.9979 12.8682 28.3298 20.5989 20.5989C27.6653 13.5328 27.9956 2.17651 28 0.275957C28.0047 2.17651 28.335 13.5328 35.4011 20.5989C43.1319 28.3298 55.9979 27.9979 55.9979 27.9979ZM7.40097 48.5989C-0.329853 40.8681 0.00207581 28.0021 0.00207581 28.0021C0.00207581 28.0021 12.8682 27.6702 20.5989 35.4011C27.6653 42.4672 27.9956 53.8235 28 55.7241C28.0047 53.8235 28.335 42.4672 35.4011 35.4011C43.1319 27.6702 55.9979 28.0021 55.9979 28.0021C55.9979 28.0021 56.33 40.8681 48.5989 48.5989C40.8681 56.3298 28.0021 55.9979 28.0021 55.9979C28.0021 55.9979 28.0003 55.9316 28 55.8058C27.9997 55.9316 27.9979 55.9979 27.9979 55.9979C27.9979 55.9979 15.1319 56.3298 7.40097 48.5989Z"
+         fill="white" />
+    </g>
+    <g
+       id="lines" />
+  </g>
+  <defs
+     id="defs3">
+    <linearGradient
+       id="paint0_linear_0_1"
+       x1="408.795"
+       y1="-186"
+       x2="-258.387"
+       y2="-90.0176"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FFEE32"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#D6D6D6"
+         id="stop3" />
+    </linearGradient>
+    <clipPath
+       id="clip0_0_1">
+      <rect
+         width="375"
+         height="4572"
+         fill="white"
+         transform="translate(-17 -80)"
+         id="rect3" />
+    </clipPath>
+  </defs>
+</svg>

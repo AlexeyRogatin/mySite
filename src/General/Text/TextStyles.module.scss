@@ -1,0 +1,44 @@
+@use '../../GlobalVariables.module.scss';
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.text {
+    font-style: normal;
+    line-height: normal;
+    color: var(--mainContentColor);
+}
+
+.heading {
+    @extend .text;
+
+    font-family: DynaPuff;
+    font-weight: 700;
+}
+
+.heading1 {
+    @extend .heading;
+
+    font-size: 48px;
+
+    @media (min-width: GlobalVariables.$desctopWidth) {
+        font-size: 80px;
+    }
+}
+
+.heading2 {
+    @extend .heading;
+
+    font-size: 36px;
+
+    @media (min-width: GlobalVariables.$desctopWidth) {
+        font-size: 48px;
+    }
+}
+
+.defaultText {
+    @extend .text;
+
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+}

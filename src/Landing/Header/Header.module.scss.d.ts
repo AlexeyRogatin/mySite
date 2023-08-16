@@ -1,0 +1,17 @@
+export declare const burger: string;
+export declare const burgerLogo: string;
+export declare const burgerWrapper: string;
+export declare const buttonList: string;
+export declare const buttonListDesctop: string;
+export declare const buttonListMobile: string;
+export declare const circle: string;
+export declare const defaultText: string;
+export declare const heading: string;
+export declare const heading1: string;
+export declare const heading2: string;
+export declare const logo: string;
+export declare const mainHeading: string;
+export declare const navigationMenu: string;
+export declare const navigationPanel: string;
+export declare const text: string;
+export declare const wrapper: string;

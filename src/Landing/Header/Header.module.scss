@@ -1,0 +1,105 @@
+@use "../../General/Text/TextStyles.module.scss";
+@use "../../GlobalVariables.module.scss";
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    background: linear-gradient(225deg, var(--mainColor) 0%, var(--sideColor) 100%);
+    justify-content: space-between;
+}
+
+.mainHeading {
+    @extend .heading1;
+
+    padding-bottom: 100px;
+}
+
+.navigationPanel {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+}
+
+.burgerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 56px;
+    height: 56px;
+
+    @media (min-width: GlobalVariables.$desctopWidth) {
+        display: none;
+    }
+}
+
+.burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    width: 56px;
+    height: 56px;
+
+    border-radius: 28px;
+    border: 2px solid var(--mainContentColor);
+}
+
+.burgerLogo {
+    width: 28px;
+    height: 28px;
+}
+
+.circle {
+    position: absolute;
+}
+
+.navigationMenu {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    height: 100vh;
+    width: var(--clientWidth);
+}
+
+.buttonList {
+    display: flex;
+    gap: 20px;
+    width: min-content;
+}
+
+.buttonListMobile {
+    @extend .buttonList;
+
+    position: relative;
+    flex-direction: column;
+
+    top: 120px;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+.buttonListDesctop {
+    @extend .buttonList;
+    flex-direction: row;
+
+    display: none;
+
+    @media (min-width: GlobalVariables.$desctopWidth) {
+        display: flex;
+    }
+}

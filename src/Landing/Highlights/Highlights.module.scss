@@ -1,0 +1,12 @@
+@use "../../General//Text/TextStyles.module.scss";
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--sideBackGroundColor);
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+}

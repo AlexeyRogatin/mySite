@@ -1,0 +1,15 @@
+@use '../GlobalVariables.module.scss';
+
+.appStyle {
+    width: 100%;
+    background: var(--mainBackGroundColor);
+
+    @media (min-width: GlobalVariables.$desctopWidth) {
+        max-width: 1620px;
+    }
+}
+
+.appStyle>* {
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}

@@ -1,0 +1,87 @@
+@use "../../GlobalVariables.module.scss";
+@use "../Text/TextStyles.module.scss";
+
+.buttonList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.desctopButtonList {
+    display: none;
+
+    @media (min-width: GlobalVariables.$desctopWidth) {
+        flex-direction: row;
+        display: flex;
+        gap: 12px;
+    }
+}
+
+.button {
+    border-radius: 28px;
+    border: 2px solid var(--mainContentColor);
+    min-height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttonGroup {
+    gap: 12px;
+    padding: 16px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.highlight {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 100%;
+    background-color: var(--mainContentColor);
+    border-radius: 24px;
+    padding: 16px;
+}
+
+.linkFavicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+
+    border-radius: 28px;
+    border: 2px solid var(--mainContentColor);
+    background-color: var(--mainContentColor);
+
+    position: absolute;
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: right;
+    align-items: start;
+}
+
+.highlightImage {
+    border-radius: 13px;
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.highlightHeading {
+    @extend .heading2;
+
+    color: var(--sideContentColor);
+}
+
+.highlightText {
+    @extend .defaultText;
+
+    color: var(--sideContentColor);
+}

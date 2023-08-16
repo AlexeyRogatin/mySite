@@ -12,7 +12,7 @@ async function watch() {
       ".ts": "ts",
       ".gif": "dataurl",
       ".jpg": "dataurl",
-      ".png": "dataurl",
+      ".png": "dataurl"
     },
     bundle: true,
     plugins: [

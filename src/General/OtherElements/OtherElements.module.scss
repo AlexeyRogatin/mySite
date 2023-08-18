@@ -1,27 +1,22 @@
+@use "../../GlobalVariables.module.scss";
+
 .scrollableElement {
-    overflow-x: scroll;
-
     position: relative;
-    left: calc(0px - var(--padding));
-    width: calc(100% + calc(var(--padding) * 2));
-
-    --availableWidth: calc(100%);
-}
-
-.scrollableElement>* {
-    padding: 0 var(--padding);
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 3px;
+    margin-left: 50%;
 
     width: max-content;
+
+    transition: left 1s;
 }
 
-.scrollableElement>*>* {
+.scrollableElement>* {
     width: calc(var(--clientWidth) - var(--padding) * 2);
-}
 
-.scrollableElement::-webkit-scrollbar {
-    visibility: hidden;
+    @media (min-width: GlobalVariables.$desktopWidth) {
+        width: calc(calc(var(--clientWidth) - var(--padding) * 2) / 2.2);
+    }
 }

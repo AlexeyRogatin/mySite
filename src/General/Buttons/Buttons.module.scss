@@ -10,7 +10,7 @@
 .desctopButtonList {
     display: none;
 
-    @media (min-width: GlobalVariables.$desctopWidth) {
+    @media (min-width: GlobalVariables.$desktopWidth) {
         flex-direction: row;
         display: flex;
         gap: 12px;
@@ -20,11 +20,20 @@
 .button {
     border-radius: 28px;
     border: 2px solid var(--mainContentColor);
-    min-height: 56px;
+    height: 56px;
     display: flex;
     flex-direction: row;
     align-items: center;
     cursor: pointer;
+    overflow-y: hidden;
+    background-color: transparent;
+
+    transition: background-color 0.5s, border-color 0.5s;
+}
+
+.button:hover {
+    background-color: var(--mainColor);
+    border-color: var(--sideColor);
 }
 
 .buttonGroup {
@@ -48,15 +57,14 @@
 }
 
 .linkFavicon {
-    display: flex;
-    align-items: center;
     justify-content: center;
 
     margin: 20px;
 
-    border-radius: 28px;
-    border: 2px solid var(--mainContentColor);
+    width: 56px;
+
     background-color: var(--mainContentColor);
+    border-color: var(--sideContentColor);
 
     position: absolute;
 }

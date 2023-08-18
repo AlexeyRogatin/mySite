@@ -1,0 +1,26 @@
+@use "../../General/Text/TextStyles.module.scss";
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    color: var(--mainContentColor);
+}
+
+.footerText {
+    @extend .defaultText;
+}

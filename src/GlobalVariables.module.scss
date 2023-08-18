@@ -1,4 +1,4 @@
-$desctopWidth: 1080px;
+$desktopWidth: 1080px;
 
 :root {
     --mainBackGroundColor: #222;
@@ -8,12 +8,12 @@ $desctopWidth: 1080px;
     --mainContentColor: #FFF;
     --sideContentColor: #565656;
 
-    --desctopPadding: 190px;
+    --desktopPadding: 190px;
     --mobilePadding: 20px;
 
     --padding: var(--mobilePadding);
 
-    @media (min-width: $desctopWidth) {
-        --padding: var(--desctopPadding);
+    @media (min-width: $desktopWidth) {
+        --padding: var(--desktopPadding);
     }
 }

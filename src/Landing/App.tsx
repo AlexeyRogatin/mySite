@@ -3,6 +3,9 @@ import { Introduction } from "./Introduction/Introduction"
 import Styles from "./App.module.scss"
 import { Highlights } from "./Highlights/Highlights"
 import { Header } from "./Header/Header"
+import { Sections } from "./Sections/Sections"
+import { Qwote } from "./Qwote/Qwote"
+import { Footer } from "./Footer/Footer"
 
 export const App = () => {
     useEffect(() => {
@@ -22,6 +25,9 @@ export const App = () => {
             <Header />
             <Introduction />
             <Highlights />
+            <Sections />
+            <Qwote />
+            <Footer />
         </div>
     )
 }

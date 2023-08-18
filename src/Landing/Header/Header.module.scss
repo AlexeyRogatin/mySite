@@ -40,23 +40,16 @@
     width: 56px;
     height: 56px;
 
-    @media (min-width: GlobalVariables.$desctopWidth) {
+    @media (min-width: GlobalVariables.$desktopWidth) {
         display: none;
     }
 }
 
 .burger {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: absolute;
-
     width: 56px;
     height: 56px;
-
-    border-radius: 28px;
-    border: 2px solid var(--mainContentColor);
+    justify-content: center;
+    position: absolute;
 }
 
 .burgerLogo {
@@ -99,7 +92,7 @@
 
     display: none;
 
-    @media (min-width: GlobalVariables.$desctopWidth) {
+    @media (min-width: GlobalVariables.$desktopWidth) {
         display: flex;
     }
 }

@@ -20,7 +20,7 @@
 
     font-size: 48px;
 
-    @media (min-width: GlobalVariables.$desctopWidth) {
+    @media (min-width: GlobalVariables.$desktopWidth) {
         font-size: 80px;
     }
 }
@@ -30,7 +30,7 @@
 
     font-size: 36px;
 
-    @media (min-width: GlobalVariables.$desctopWidth) {
+    @media (min-width: GlobalVariables.$desktopWidth) {
         font-size: 48px;
     }
 }

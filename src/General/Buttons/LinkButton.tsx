@@ -3,14 +3,12 @@ import { Button } from "./Button";
 
 type LinkButtonProps = {
     href?: string
-} & React.ComponentProps<'div'>
+} & React.ComponentProps<'a'>
 
 export const LinkButton = ({ href, children, ...other }: LinkButtonProps) => {
     return (
-        <a href={href} >
-            <Button {...other}>
-                {children}
-            </Button>
-        </a>
+        <Button {...other} href={href}>
+            {children}
+        </Button>
     )
 }

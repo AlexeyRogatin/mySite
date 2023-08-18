@@ -1,0 +1,54 @@
+@use "../../General/Text/TextStyles.module.scss";
+@use "../../GlobalVariables.module.scss";
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+
+.sectionsHeading {
+    @extend .heading2;
+}
+
+.sectionsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.section {
+    height: 325px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: GlobalVariables.$desktopWidth) {
+        width: calc(var(--clientWidth) / 2 - var(--padding) - 20px / 2 - 1px);
+    }
+}
+
+.section:first-of-type {
+    width: 100%;
+}
+
+.sectionImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+    filter: grayscale(50%);
+}
+
+.sectionLogo {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}

@@ -12,13 +12,14 @@ type highlightProps = {
 
 export const Highlight = ({ src, heading, text, href }: highlightProps) => {
     return (
-        <a className={Styles.highlight} href={href} >
+
+        <div className={Styles.highlight}>
             <div className={Styles.imageWrapper}>
                 <img src={src} className={Styles.highlightImage} />
-                <LinkFavicon />
+                <LinkFavicon href={href} />
             </div>
             <div className={Styles.highlightHeading}>{heading}</div>
             <div className={Styles.highlightText}>{text}</div>
-        </a>
+        </div >
     )
 }

@@ -8,7 +8,8 @@ import BurgerLogo from "../Assets/Burger.svg";
 import Circle from "../Assets/Circle.svg";
 import { ButtonList } from "../../General/Buttons/ButtonList";
 import { NavigationMenu } from "./NavigationMenu";
-import { useDisableScroll, useEnableScroll } from "../../General/Hooks/useScrolls";
+import { useDisableMainScroll, useEnableMainScroll } from "../../General/Hooks/useScrolls";
+import { Button } from "../../General/Buttons/Button";
 
 const computeDiagonal = () => {
     return 2 * Math.sqrt(Math.pow(visualViewport.width, 2) + Math.pow(visualViewport.height, 2))
@@ -23,11 +24,11 @@ export const NavigationPanel = () => {
     const handleBurgerClick = () => {
         if (!menuOpen) {
             setCircleClass(Animation.large);
-            useDisableScroll();
+            useDisableMainScroll();
         } else {
             setCircleClass(Animation.small);
             setMenuClass(Animation.invisible);
-            useEnableScroll();
+            useEnableMainScroll();
         }
 
         setMenuOpen((val) => !val);
@@ -56,9 +57,9 @@ export const NavigationPanel = () => {
                     onTransitionEnd={handleTransitionEnd} />
                 <NavigationMenu className={menuClass} />
 
-                <div className={Styles.burger} onClick={handleBurgerClick}>
+                <Button className={Styles.burger} onClick={handleBurgerClick}>
                     <BurgerLogo className={Styles.burgerLogo} />
-                </div>
+                </Button>
             </div>
 
             <ButtonList className={Styles.buttonListDesctop} />
